@@ -1,2 +1,11 @@
-# lista-produtos
-Projeto simples de lista de produtos com HTML e JavaScript
+# Lista de Produtos
+
+Projeto simples para adicionar produtos em uma lista utilizando HTML e JavaScript.
+
+## Funcionalidades
+- Adicionar produtos
+- Exibir lista na tela
+
+## Tecnologias
+- HTML
+- JavaScript
