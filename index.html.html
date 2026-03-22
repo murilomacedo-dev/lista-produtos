@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Produtos</title>
+</head>
+<body>
+
+  <h1>Lista de Produtos</h1>
+
+  <input type="text" id="produto" placeholder="Digite um produto">
+  <button onclick="adicionar()">Adicionar</button>
+
+  <ul id="lista"></ul>
+
+  <script>
+    function adicionar() {
+      let input = document.getElementById("produto");
+      let lista = document.getElementById("lista");
+
+      if (input.value === "") {
+        alert("Digite um produto");
+        return;
+      }
+
+      let item = document.createElement("li");
+      item.textContent = input.value;
+
+      lista.appendChild(item);
+
+      input.value = "";
+    }
+  </script>
+
+</body>
+</html>
