@@ -3,7 +3,7 @@
 Projeto simples para adicionar produtos em uma lista utilizando HTML e JavaScript.
 
 ## Funcionalidades
-- Adicionar produtos
+- Adicionar Produtos
 - Exibir lista na tela
 
 ## Tecnologias
